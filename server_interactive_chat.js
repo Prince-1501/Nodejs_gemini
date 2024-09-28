@@ -54,6 +54,10 @@ const chatMessage = async() => {
 
 /* ----------------------------------------------- */
 
+app.get('/home', (req, res) => {
+    res.status(200).json('Welcome, your app is working well');
+});
+
 app.get('/chat', async(req, res)=>{
     try {
         const message = req.query.message;
@@ -114,6 +118,6 @@ app.get('/chat', async(req, res)=>{
 });
 
 const port = process.env.PORT || 3000
-app.listen(port, () => {
-    console.log(`Server running at Port: ${port}`)
+app.listen(PORT, () => {
+    console.log(`✅ Server is running on port ${PORT}`);
 })
