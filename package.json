@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-chat": "node server_interactive_chat.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node server_interactive_chat.js"
   },
   "author": "Prince",
   "license": "ISC",
