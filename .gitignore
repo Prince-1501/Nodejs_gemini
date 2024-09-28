@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Build output
+dist
+build
+
+# Temporary files
+tmp
+temp.js
+/uploads/
+
+# IDE or editor specific files
+.idea/
+.vscode/
+.DS_Store
+
+# Operating system specific files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
